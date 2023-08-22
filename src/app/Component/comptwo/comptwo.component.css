@@ -1,0 +1,37 @@
+a{text-decoration: none;
+    color: rgb(22, 139, 41);
+    font-family: "Kanit";
+    padding-right: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    }
+    h1{
+        
+        font-weight: bolder;
+        color: #40128B;
+    }
+   .fw-light{
+        font-family: "Kanit";
+    }
+    
+    
+    a:hover{color: rgb(43, 197, 43);}
+    a:active{color: rgb(46, 199, 46);}
+    a:focus{color: rgb(49, 186, 49);}
+    .p1{color:#40128B ;
+        font-weight: 600;}
+    
+    
+    .txt{color: gray;}
+    
+    .boximg{ 
+    
+        box-shadow: 10px 10px #967E76;}
+
+    .text-secondary{
+        font-family: "kanit";
+    }
+
+/* #myslider{
+    margin-top: 50px;
+} */

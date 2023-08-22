@@ -1,0 +1,19 @@
+<div class="container-fluid mt-5 mb-5 pb-5" id="summer">
+
+  <div class="row p-5">
+    <div class="col-6 p-5">
+      <div id="intro " class="pt-5">
+        <div class="quote pt-5 text-center">
+          <h2 id="summerh">ONLINE COURSES</h2>
+          <p id="summerp"> Explore The Season Look up and Key Pieces Around The World</p>
+          <button type="button" class="btn fs offset-2 offset-lg-0  btn-outline-warning">Go To Shop</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-5 offset-1">
+      <div *ngFor="let image of images ; let i = index;">
+        <img class="img-fluid  text-end" id="img" [src]="image" alt="myimage" [hidden]="i!= currentIndex">
+      </div>
+    </div>
+  </div>
+</div>

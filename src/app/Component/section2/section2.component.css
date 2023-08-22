@@ -1,0 +1,55 @@
+.section2{
+    margin-top: 20px;
+}
+h3{
+    font-family: "Kanit";
+    display: inline-block;
+    font-weight: 500;
+    color: rgb(129, 43, 9);
+}
+i{
+   font-size: xx-large;
+   color: rgb(22, 142, 6);
+}
+i:hover{
+    color: rgb(123, 255, 0);
+}
+img{
+    width: 50%;
+    
+}
+@media (min-width: 420px){
+    #img1{
+        width: 100%;     }
+       #img2{
+           width: 100%; 
+            }
+}
+@media (min-width: 768px){
+    #img1{
+        width: 50%;     }
+       #img2{
+           width: 50%; 
+           margin-left: 6.2rem;
+           }
+}
+#best{
+    color: rgb(196, 15, 15);
+}
+#cons{
+    font-weight: 800;
+}
+p{
+    font-family: "Kanit";
+    color: rgb(62, 41, 123);
+}
+#best{
+    letter-spacing: .8ch;
+    font-weight: bold;
+}
+h2{
+    font-family: "Martian+Mono";
+    font-size:5ch;
+    font-weight: bolder;
+    color: #4a2bb0;
+}

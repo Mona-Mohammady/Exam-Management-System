@@ -1,0 +1,61 @@
+
+#summer{
+    /* filter: grayscale(60%); */
+    box-sizing: border-box !important;
+    margin-bottom: 30px;
+
+}
+.container-fluid{
+    /* background-image: url('/assets/images/bg.webp')  !important; */
+    background-size: cover ;
+    background-repeat: no-repeat;
+
+}
+img{
+   object-fit: cover;
+   height: 28rem;
+   }
+
+#summerh{
+  font-weight: 700;
+    color: black; 
+}
+@media (min-width: 420px){
+   
+        #summerp{
+           
+            font-size: x-small;}
+
+}
+#summerh{
+    font-family: "Martian+Mono";
+    font-size:5ch;
+    font-weight: bolder;
+    color: #4a2bb0;
+}
+#summerp{
+    font-family: "Kanit";
+}
+@media (min-width: 768px){
+    #summerh{
+        font-size: 3rem;
+
+     } 
+        #summerp{
+            font-size: 2rem;}
+
+}
+
+#intro:hover{
+    filter: grayscale(100%);
+}
+#summerp{
+    color: rgb(160, 153, 144);
+    
+  
+}
+button{
+    margin-right: 2rem;
+    width: 14rem;
+    font-weight: bold;
+}

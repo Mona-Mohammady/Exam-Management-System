@@ -1,0 +1,36 @@
+#login{
+color: rgb(86, 172, 73);
+}
+#login:hover{
+  color: rgb(127, 255, 138);
+}
+.nav-link{
+font-weight: 600;
+font-size: large;
+letter-spacing: .1ch;
+
+
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+.navbar-brand{
+    color: rgb(254, 253, 254);
+    font-weight: 600;
+    font-weight: bold;
+    font-size:x-large
+}
+.navbar-brand:hover{
+    color: rgb(252, 252, 252);
+    font-weight: bolder;
+}
+#academy{
+    color: rgb(202, 246, 100);
+    font-weight: 400 !important;
+    font-size:large
+
+}
+.bi{
+    color: rgb(145, 163, 32);
+    font-size: large;
+}
